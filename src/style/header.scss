@@ -1,0 +1,16 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}.header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    >a{
+        text-decoration: none;
+        padding:0.8rem ;
+        color: white;
+    }:hover{
+        border-bottom: 2px solid white;
+    }
+}
